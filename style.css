@@ -1,0 +1,138 @@
+@font-face {
+    font-family: RetroTeam;
+    src: url(./font/Retro\ Team.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: RetroTeam;
+    overflow-x: hidden;
+}
+
+.first-page {
+    background-image: url("./img/1.png");
+}
+
+.page {
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+}
+
+.page1 {
+    background-image: url("./img/1.png");
+}
+
+
+.page9 {
+    background-image: url("./img/9.jpg");
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 110px;
+    color: rgb(5, 0, 12);
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(233, 208, 255);
+    border-style: solid;
+    background-color: rgb(233, 208, 255);
+    position: relative;
+}
+
+.nino {
+
+    font-size: 110px;
+    left: 209px;
+    top: 103px;
+    width: 644px;
+    height: 105px;
+}
+
+.grap {
+
+    left: 536px;
+    top: 320px;
+    width: 748px;
+    height: 107px;
+    font-size: 110px;
+
+}
+
+.navigation {
+    left: 1405px;
+    top: 435px;
+    width: 311px;
+    height: 304px;
+    font-size: 68px;
+    position: absolute;
+}
+
+.nav {
+    text-decoration: none;
+    color: #05000c;
+
+}
+
+.dow {
+
+    font-size: 61px;
+    font-family: "RetroTeam";
+    color: rgb(233, 208, 255);
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    left: 1620px;
+    top: 144px;
+    z-index: 162;
+    text-decoration: none;
+
+
+}
+
+.nino {
+    font-size: 110px;
+    left: 209px;
+    top: 103px;
+    width: 644px;
+    height: 105px;
+}
+
+.contactHeader {
+    font-size: 110px;
+    left: 209px;
+    top: 103px;
+    width: 644px;
+    height: 105px;
+}
+
+.contacts {
+    display: flex;
+    gap: 269px;
+    width: 100%;
+    bottom: 200px;
+    position: absolute;
+    justify-content: center;
+}
+
+.gmail {
+    position: relative;
+    right: 27px;
+}
+
+.behance {
+    position: relative;
+    left: 10px;
+}
+
+.contact {
+    text-decoration: none;
+    color: rgb(233, 208, 255);
+    font-size: 61px;
+}
