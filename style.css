@@ -49,25 +49,25 @@ body {
 
 .nino {
   font-size: 110px;
-  left: 209px;
+  left: 210px;
   top: 103px;
-  width: 644px;
+  width: 646px;
   height: 105px;
 }
 
 .grap {
-  left: 536px;
-  top: 320px;
-  width: 748px;
-  height: 107px;
-  font-size: 110px;
+  left: 537px;
+  top: 332px;
+  width: 749px;
+  height: 95px;
+  font-size: 96px;
 }
 
 .navigation {
-  left: 1405px;
-  top: 435px;
-  width: 311px;
-  height: 304px;
+  left: 1406px;
+  top: 437px;
+  width: 310px;
+  height: 303px;
   font-size: 68px;
   position: absolute;
 }
@@ -88,14 +88,6 @@ body {
   top: 144px;
   z-index: 162;
   text-decoration: none;
-}
-
-.nino {
-  font-size: 110px;
-  left: 209px;
-  top: 103px;
-  width: 644px;
-  height: 105px;
 }
 
 .contactHeader {
@@ -383,7 +375,7 @@ body {
   border-style: solid;
   background-color: rgb(233, 208, 255);
   position: absolute;
-  left: 625px;
+  left: 660px;
   top: 65px;
   width: 668px;
   font-size: 100px;
@@ -394,7 +386,7 @@ body {
   top: 245px;
   height: 390px;
   position: absolute;
-  margin-left: 570px;
+  margin-left: 605px;
   width: 768px;
 }
 .design {
@@ -404,10 +396,10 @@ body {
   width: 460px;
 }
 .design2 {
-  left: 1015px;
+  left: 1070px;
 }
 .design3 {
-  margin-left: 430px;
+  margin-left: 480px;
 }
 .page8 {
   background-image: url(./img/8.png);
