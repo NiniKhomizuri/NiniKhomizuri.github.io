@@ -1,7 +1,14 @@
 @font-face {
   font-family: RetroTeam;
-  src: url(./font/Retro\ Team.otf);
+  src: url('./font/Retro Team.otf');
 }
+
+@font-face {
+  font-family: BPGTech11;
+  src: url(./font/BPGTech11.ttf);
+}
+
+
 
 * {
   margin: 0px;
@@ -14,6 +21,10 @@ html {
 body {
   font-family: RetroTeam;
   overflow-x: hidden;
+}
+
+.ka{
+  font-family: BPGTech11;
 }
 
 .first-page {
@@ -79,7 +90,6 @@ body {
 
 .dow {
   font-size: 61px;
-  font-family: "RetroTeam";
   color: rgb(233, 208, 255);
   text-transform: uppercase;
   text-align: center;
@@ -135,6 +145,7 @@ body {
   height: 766px;
   font-size: 61px;
   padding-left: 30px;
+  padding-top: 15px;
 }
 .textpar {
   position: absolute;
@@ -145,7 +156,7 @@ body {
   font-size: 42px;
   padding-left: 30px;
 }
-.textpar-2 {
+.textpar2 {
   position: absolute;
   left: 861px;
   top: 700px;
@@ -161,9 +172,8 @@ body {
   width: 662px;
   height: 683px;
 }
-.certificat-1 {
+.certificat1 {
   font-size: 40px;
-  font-family: "RetroTeam";
   background-color: rgb(233, 208, 255);
   color: rgb(5, 0, 12);
   text-transform: uppercase;
@@ -449,4 +459,21 @@ body {
   right: 116px;
 }
 
+.nav-item {
+  top: 0px;
+  left: 0px;
+  width: 92px;
+  height: 95px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(233, 208, 255);
+  align-items: center;
+  justify-content: center;
+}
 
+.dropdown-item{
+  text-decoration: none;
+  color: rgb(5, 0, 12);
+}
